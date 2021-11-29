@@ -11,9 +11,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 100;
-  padding: 200;
-  border: 200;
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -30,13 +30,14 @@ h2{
   font-size: xx-large;
 }
 
+
 body {
   margin: 15%;
   background-color: rgb(16,180, 98);
   line-height: 1; }
 
 ol, ul {
-  list-style: ; }
+  list-style: none }
 
 table {
   border-collapse: collapse;
