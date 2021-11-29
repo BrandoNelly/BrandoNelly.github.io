@@ -11,14 +11,21 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 100;
+  padding: 200;
+  border: 200;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
+
+h1{
+  font-size: 4em;
+  color: #211347;
+}
+  
 body {
+  background-color: rgb(16,180, 98);
   line-height: 1; }
 
 ol, ul {
@@ -36,27 +43,20 @@ caption, th, td {
 q, blockquote {
   quotes: none; }
   q:before, q:after, blockquote:before, blockquote:after {
-    content: "";
+    content: "Is this a quote?";
     content: none; }
 
 a img 
-{
-}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
 body {
   font-family: Arial;
-  color: #ca0909;
+  color: #1b0e41;
 
-  h1{ 
-    background-color: orange;
-    padding: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-  }
+  
 }
 
 a {
