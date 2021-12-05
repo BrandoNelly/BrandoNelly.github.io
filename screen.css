@@ -33,8 +33,13 @@ h1{
 }
   
 h2{
+  background-color: rgb(192, 100, 24);
   text-align: right;
   font-size: xx-large;
+  font-family: arial, "Times New Roman";
+  text-decoration: underline;
+  color:#020204;
+  letter-spacing: 5px;
 }
 
 
