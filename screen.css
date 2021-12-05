@@ -33,7 +33,7 @@ h1{
 }
   
 h2{
-  background-color: rgb(192, 100, 24);
+  background-color: rgb(16,180, 98);
   text-align: right;
   font-size: xx-large;
   font-family: arial, "Times New Roman";
@@ -70,7 +70,13 @@ q, blockquote {
     content: "";
     content: none; }
 
-a img 
+img {
+  border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: #020204;
+}
 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
@@ -85,9 +91,14 @@ body {
 }
 
 a {
-  color: #0388a6; }
+  font-weight: 500;
+  font-style: italic;
+  font-family: sans-serif;
+  text-decoration: solid;
+  text-transform: capitalize;
+  color: #000000; }
   a:hover {
-    color: #009ce0; }
+    color: #70186c; }
 
 #main {
-  padding: 50px; }
+  padding:60px; }
