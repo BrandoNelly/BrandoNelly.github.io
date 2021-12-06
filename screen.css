@@ -36,21 +36,23 @@ h2{
   margin-top: 1in;
   background-color: rgb(16,180, 98);
   text-align: right;
-  font-size: xx-large;
-  font-family: arial, "Times New Roman";
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: underline;
   color:#020204;
   letter-spacing: 5px;
 }
 
 
+
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(16,180, 98);
+  background-color: rgb(16, 180, 98);
   line-height: 1; }
 
 p {
+  font-size: 2rem;
   color:#020204
 }
 
@@ -85,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  font-family: Arial;
+  font-family: monospace;
   color: #1b0e41;
   font-size: x-large;
 
@@ -93,6 +95,7 @@ body {
 }
 
 a {
+  font-size: 2rem;
   font-weight: 500;
   font-style: italic;
   font-family: sans-serif;
@@ -106,6 +109,13 @@ a {
   padding:60px; }
 
 #bodytext {
-  padding: 20px;
-  
+  padding: 0px;
+  position: relative; bottom:250px; left: 750px;
+  width: 800px;
+  height: 125px;
+  border: 5px solid;
+  color: #000000;
+  background-color:#327541 ;
+  font-size: 2em;
+  font-family: fantasy;
 }
