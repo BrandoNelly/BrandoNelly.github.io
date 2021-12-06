@@ -71,7 +71,7 @@ caption, th, td {
 q, blockquote {
   quotes: none; }
   q:before, q:after, blockquote:before, blockquote:after {
-    content: "Remember, all I’m offering is the truth. Nothing more";
+    content: "";
     content: none; }
 
 img {
